@@ -7,7 +7,7 @@ export function Reproductor(props, title, desc) {
 
   window.openWindow = function() {
     if (!isWindowOpened) {
-      window.open('https://www.highcpmgate.com/d3zfh6yqwx?key=0c23279a8ecbaa739a14a2bb32ffc8ad');
+      window.open('https://www.highcpmgate.com/d3zfh6yqwx?key=0c23279a8ecbaa739a14a2bb32ffc8ad', '_blank', 'width=1000,height=600');
       isWindowOpened = true;
     }
   }
