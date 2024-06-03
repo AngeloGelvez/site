@@ -5,20 +5,13 @@ export function Reproductor(props, title, desc) {
 
   $div.classList.add("container", "m-auto");
 
-  window.openWindow = function() {
-    if (!isWindowOpened) {
-      window.open('https://www.highcpmgate.com/d3zfh6yqwx?key=0c23279a8ecbaa739a14a2bb32ffc8ad', '_blank', 'width=1000,height=600');
-      isWindowOpened = true;
-    }
-  }
-
   $div.innerHTML = `
     <div class="alert alert alert-success alert-dismissible fade show text-dark hidden" role="alert"></div>
 
     <h2>Categoria ${title}</h2>
 
     <div class="container">
-      <div class="d-flex justify-content-around" onclick="window.openWindow();">
+      <div class="d-flex justify-content-around">
         <video
         id="my-video"
         class="video-js vjs-theme-forest"
