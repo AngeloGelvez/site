@@ -14,12 +14,6 @@ export const CHANNELS = {
         url: "https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8"
       },
       {
-        tvgId: "VeracruzMultimediosTV.mx",
-        tvgLogo: "https://i.ibb.co/8sDvnT2/Screenshot-20231201-165527.jpg",
-        groupTitle: "Entertainment Veracruz Multimedios TV 720p",
-        url: "https://stream.oursnetworktv.com/latin/VeracruZMulTimedios/playlist.m3u8"
-      },
-      {
         tvgId: "51RadioTV.it",
         tvgLogo: "https://www.51news.it/images/loghi/logo_tv_radio_51news.png",
         groupTitle: "Music 51 Radio TV (480p)",
@@ -486,16 +480,28 @@ export const CHANNELS = {
     ],
     sports: [
       {
-        tvgId: "DubaiSports2.ae",
-        tvgLogo: "https://i.imgur.com/PMJ7Zmo.png",
-        groupTitle: "Sports Dubai Sports 2 (720p)",
-        url: "https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8"
+        tvgId: "DSports.ae",
+        tvgLogo: "https://www.noticiassuper.com/wp-content/uploads/2024/01/Directv-Sports.jpg",
+        groupTitle: "Direct Tv Sports",
+        url: "https://cc12.pricesaskeloadsc.com:443/dsports/index.m3u8?token=fd4b19d8766266520b3611caecd5e0f81aec6799-28-1717462657-1717451857"
       },
       {
-        tvgId: "DubaiSports3.ae",
-        tvgLogo: "https://i.imgur.com/U0A8Gex.png",
-        groupTitle: "Sports Dubai Sports 3 (1080p) [Not 24/7]",
-        url: "https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8"
+        tvgId: "DSports2.ae",
+        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/DirecTV_Sports_2_Latin_America_%282018%29.png/800px-DirecTV_Sports_2_Latin_America_%282018%29.png",
+        groupTitle: "Direct Tv Sports 2",
+        url: "https://cc12.pricesaskeloadsc.com:443/dsports_2/index.m3u8?token=a5957d899ad6a5b46929011f79946f254aa39bb0-c6-1717456582-1717445782"
+      },
+      {
+        tvgId: "TntSports.ae",
+        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/d/d3/TNT_Sports_logo_2021.png",
+        groupTitle: "TNT Sports (1080p)",
+        url: "https://s9c.pricesaskeloadsc.com:443/tntsports_argentina/index.m3u8?token=a4455d56855c51789dd95d0ef64d54c5472447f7-15-1717457006-1717446206"
+      },
+      {
+        tvgId: "WinSports.ae",
+        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Win_Sports%2B_logo.svg/2560px-Win_Sports%2B_logo.svg.png",
+        groupTitle: "Win Sport + (1080p)",
+        url: "https://s9c.pricesaskeloadsc.com:443/winplus/index.m3u8?token=146464e43e7afe2b96ac72113bc9d7c9797483f5-f3-1717459245-1717448445"
       },
       {
         tvgId: "FightNetwork.ca",
@@ -556,18 +562,6 @@ export const CHANNELS = {
         tvgLogo: "https://i.imgur.com/l4atkvs.png",
         groupTitle: "Sports K19",
         url: "https://1853185335.rsc.cdn77.org/K192/tv/playlist.m3u8"
-      },
-      {
-        tvgId: "KTVSport.kw",
-        tvgLogo: "https://i.imgur.com/R1hGX1d.png",
-        groupTitle: "Sports KTV Sport (1080p)",
-        url: "https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8"
-      },
-      {
-        tvgId: "KTVSportPlus.kw",
-        tvgLogo: "https://i.imgur.com/l4oX0gf.png",
-        groupTitle: "Sports KTV Sport Plus (1080p)",
-        url: "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8"
       },
       {
         tvgId: "MarqueeSportsNetwork.us",
@@ -702,12 +696,6 @@ export const CHANNELS = {
         tvgLogo: "https://i.imgur.com/N7VH24E.png",
         groupTitle: "Entertainment, RCN Xtra (1080p)",
         url: "https://latv-rcn-xtra-1-mx.tcl.wurl.tv/playlist.m3u8"
-      },
-      {
-        tvgId: "AMCEast.us",
-        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/512px-AMC_logo_2019.svg.png",
-        groupTitle: "Movies AMC East",
-        url: "http://170.254.18.106/AMC/mono.m3u8"
       },
       {
         tvgId: "ABNBibleMoviesChannel.us",
