@@ -495,7 +495,7 @@ export const CHANNELS = {
         tvgId: "TntSports.ae",
         tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/d/d3/TNT_Sports_logo_2021.png",
         groupTitle: "TNT Sports (1080p)",
-        url: "https://s9c.pricesaskeloadsc.com:443/tntsports_argentina/index.m3u8?token=a4455d56855c51789dd95d0ef64d54c5472447f7-15-1717457006-1717446206"
+        url: "http://tv.teleclub.xyz/envivo/Deportes/TNT_SPORTS/index.m3u8"
       },
       {
         tvgId: "WinSports.ae",
