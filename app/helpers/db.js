@@ -256,6 +256,36 @@ export const CHANNELS = {
     ],
     general: [
       {
+        tvgId: "CNN.cl",
+        tvgLogo: "https://cdn.worldvectorlogo.com/logos/cnn-international.svg",
+        groupTitle: "Mundo, CNN Europa",
+        url: "https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8 ",
+      },
+      {
+        tvgId: "CNNUsa.cl",
+        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/800px-CNN_International_logo.svg.png",
+        groupTitle: "Mundo, CNN USA",
+        url: "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
+      },
+      {
+        tvgId: "Rt.cl",
+        tvgLogo: "https://i.imgur.com/qv3P4pm.png",
+        groupTitle: "Mundo, RT",
+        url: "https://rt-ger.rttv.com/dvr/rtdeutsch/playlist.m3u8",
+      },
+      {
+        tvgId: "LasEstrellas.cl",
+        tvgLogo: "https://i.imgur.com/kaTu9Qb.png",
+        groupTitle: "Mundo, Las Estrellas",
+        url: "https://television-libre.online/html/hls.html?get=aHR0cHM6Ly9jaGFubmVsMDEuYWthbWFpemVkLm5ldC9obHMvbGl2ZS8yMDIyNzQ5L2V2ZW50MDEvaW5kZXgubTN1OA==",
+      },
+      {
+        tvgId: "DW.cl",
+        tvgLogo: "https://i.imgur.com/d2SXEFp.png",
+        groupTitle: "Mundo, DW en Español",
+        url: "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8",
+      },
+      {
         tvgId: "SEOTV1FHD.bo",
         tvgLogo: "https://i.imgur.com/aTcJ5p3.png",
         groupTitle: "General, SEO TV 1 (1080p)",
@@ -480,28 +510,52 @@ export const CHANNELS = {
     ],
     sports: [
       {
-        tvgId: "DSports.ae",
-        tvgLogo: "https://www.noticiassuper.com/wp-content/uploads/2024/01/Directv-Sports.jpg",
-        groupTitle: "Direct Tv Sports",
-        url: "https://cc12.pricesaskeloadsc.com:443/dsports/index.m3u8?token=fd4b19d8766266520b3611caecd5e0f81aec6799-28-1717462657-1717451857"
+        tvgId: "EspnPremium.cl",
+        tvgLogo: "https://i.imgur.com/wZWckwd.jpg",
+        groupTitle: "Deportes, ESPN Premium",
+        url: "https://streamtp.live/global2.php?stream=espn_premium",
       },
       {
-        tvgId: "DSports2.ae",
-        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/DirecTV_Sports_2_Latin_America_%282018%29.png/800px-DirecTV_Sports_2_Latin_America_%282018%29.png",
-        groupTitle: "Direct Tv Sports 2",
-        url: "https://cc12.pricesaskeloadsc.com:443/dsports_2/index.m3u8?token=a5957d899ad6a5b46929011f79946f254aa39bb0-c6-1717456582-1717445782"
+        tvgId: "Espn3MX.cl",
+        tvgLogo: "https://i.imgur.com/sPhaUD9.jpg",
+        groupTitle: "Deportes, ESPN 3",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=aHR0cHM6Ly8xMjc5MjQ3NDE4LnJzYy5jZG43Ny5vcmcvYnBrLXR2L1FFU1BOVFRWL2Rhc2gvbWFuaWZlc3QubXBk&key=NDdlZTEzYzIxMWUyNGRhZGI1ODk5MGI2ZDA5YzEzNTI=&key2=YWIwZWM0NGU2YjA4ZDlmZDIwNWU5MmE2NjhjNzYyMzc=",
       },
       {
-        tvgId: "TntSports.ae",
-        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/d/d3/TNT_Sports_logo_2021.png",
-        groupTitle: "TNT Sports (1080p)",
-        url: "http://tv.teleclub.xyz/envivo/Deportes/TNT_SPORTS/index.m3u8"
+        tvgId: "WinSports+.cl",
+        tvgLogo: "https://i.imgur.com/IfB4pUd.png",
+        groupTitle: "Deportes, Win Sports +",
+        url: "https://streamtp.live/global2.php?stream=winplus",
       },
       {
-        tvgId: "WinSports.ae",
-        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Win_Sports%2B_logo.svg/2560px-Win_Sports%2B_logo.svg.png",
-        groupTitle: "Win Sport + (1080p)",
-        url: "https://s9c.pricesaskeloadsc.com:443/winplus/index.m3u8?token=146464e43e7afe2b96ac72113bc9d7c9797483f5-f3-1717459245-1717448445"
+        tvgId: "TyCSports.cl",
+        tvgLogo: "https://i.imgur.com/zKwneZ3.png",
+        groupTitle: "Deportes, TyC Sports",
+        url: "https://streamtp.live/global2.php?stream=tyc_sports",
+      },
+      {
+        tvgId: "Dazn1.cl",
+        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/640px-DAZN_1_Logo.svg.png",
+        groupTitle: "Deportes DAZN 1",
+        url: "https://nebunexa.com/players/gas.html?id=DAZN_1_ES",
+      },
+      {
+        tvgId: "Dazn2.cl",
+        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/DAZN_2.svg/2560px-DAZN_2.svg.png",
+        groupTitle: "Deportes DAZN 2",
+        url: "https://nebunexa.com/players/gas.html?id=DAZN_2_ES",
+      },
+      {
+        tvgId: "Dazn3.cl",
+        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/DAZN_3.svg/2560px-DAZN_3.svg.png",
+        groupTitle: "Deportes DAZN 3",
+        url: "https://nebunexa.com/players/gas.html?id=DAZN_3_ES",
+      },
+      {
+        tvgId: "Dazn4.cl",
+        tvgLogo: "https://movilexplora.es/sites/movilexplora.es/files/styles/_default/public/images/logos/dazn-200x300.png",
+        groupTitle: "Deportes DAZN 4",
+        url: "https://nebunexa.com/players/gas.html?id=DAZN_4_ES",
       },
       {
         tvgId: "FightNetwork.ca",
@@ -620,10 +674,196 @@ export const CHANNELS = {
     ],
     entertainment: [
       {
-        tvgId: "ANCTelevision.co",
-        tvgLogo: "https://i.imgur.com/xjTU14t.jpg",
-        groupTitle: "Entertainment, ANC Televisión (480p) [Not 24/7]",
-        url: "https://canal.mediaserver.com.co/live/ANCTELEVISION.m3u8"
+        tvgId: "Universal.cl",
+        tvgLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQcA5OtBj1V_sz2ofup_bgNkbwLElRQVtfRg&s",
+        groupTitle: "Entretenimiento, Universal Cinema",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=aHR0cHM6Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKFVOSVZFUlNBTF9DSU5FTUFfSEQpL21hbmlmZXN0Lm1wZA==&key=NjZlZTgxZmViZTc2ODg3NWFlMmZlZTViOGY1MTJlMTU=&key2=NTQ4ODI2OTQ3MzQ4NzRmMjgwMjU5ZmI4YjY3NjZhYjM=",
+      },
+      {
+        tvgId: "UniversalCrime.cl",
+        tvgLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLTv1azc7VceDWr74jDeBblAm2iIB8flDNfw&s",
+        groupTitle: "Entretenimiento, Universal Crime",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=aHR0cHM6Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKFVOSVZFUlNBTF9DUklNRV9IRCkvbWFuaWZlc3QubXBk&key=ZGQ4N2FjYTJkMzM4MTIyY2JkMjgzYmRkM2EwZjc1MDI=&key2=MmJkNDIzMTRiZGNmNDAyOGVlYjI1ZmNmNjFiN2I2ZTM=",
+      },
+      {
+        tvgId: "UniversalComedy.cl",
+        tvgLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAOm-iccq4R5QW8LPEJ1nqSJygGM0s8f0N8w&s",
+        groupTitle: "Entretenimiento, Universal Comedy",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=aHR0cHM6Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKFVOSVZFUlNBTF9DT01FRFlfSEQpL21hbmlmZXN0Lm1wZA==&key=OWE3NzhmYmQ1NGE0YjIyODVjZWE4ZDQ0YzUxNGEyZmQ=&key2=ZDliZWZiMjU5ZjI1MjNkMTdkZDVmN2FlNWJhMmRkNzQ=",
+      },
+      {
+        tvgId: "UniversalReality.cl",
+        tvgLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfp1yzahmtFF9JfJg9-WzKnM7T9H918o_3dg&s",
+        groupTitle: "Entretenimiento, Universal Reality",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=aHR0cHM6Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKFVOSVZFUlNBTF9SRUFMSVRZX0hEKS9tYW5pZmVzdC5tcGQ=&key=YWVjZWQ4NmRkNmM1ZWNmNGYzOWNkMTkzMTA5ZjM5Zjc=&key2=YWZjYjViNjdmNTg0ZjJlZWIxNzgzNDc0NjQ0YTlmOGU=",
+      },
+      {
+        tvgId: "UniversalPremiere.cl",
+        tvgLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUJRJumBUgWTzA6sNmJzivdMiRCmNz91Wviw&s",
+        groupTitle: "Entretenimiento, Universal Premiere",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=aHR0cHM6Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKFVOSVZFUlNBTF9QUkVNSUVSX0hEKS9tYW5pZmVzdC5tcGQ=&key=ZDAxYzk0ODhlNTI4Njk3YTljZDhlYmUzNWIwNjc3Mjk=&key2=YWJiNGQwYWZmMDUyNDhhZTVlNTNkM2U4NDU0NjcxZDY=",
+      },
+      {
+        tvgId: "TNTNovelas.cl",
+        tvgLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS__g-ObZvv-WMnYsfZWV_fFCd7R5UMx6bl8w&s",
+        groupTitle: "Entretenimiento, TNT Novelas",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKFRCU19IRCkvbWFuaWZlc3QubXBkIA==&key=ZjkwYTQwNjZhYjk4MWQ5ZmVmMWQxMGI4NzY3MjU0ODEg&key2=YWEzNzVjMmZiNThjY2Y5NjI5MzFhNGFkNWQyYWM2NDA=",
+      },
+      {
+        tvgId: "Cinemax.cl",
+        tvgLogo: "https://i.imgur.com/6jPJl1q.jpg",
+        groupTitle: "Entretenimiento, Cinemax",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=aHR0cHM6Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKENJTkVNQVgpL21hbmlmZXN0Lm1wZA==&key=MWY2NDUzZGYwOTQ2OTA0YjliYTA4ODUyNWZlZjc4MmQ=&key2=NzY3MzQxMTdmMjI1NjM4YzlkOWVkMTk3YTMwYWIwNzM=",
+      },
+      {
+        tvgId: "HBO.cl",
+        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/512px-HBO_logo.svg.png",
+        groupTitle: "Entretenimiento, HBO",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=aHR0cHM6Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKEhCT19IRF9NWCkvbWFuaWZlc3QubXBk&key=MjRjMmE0ZGY4ZThkZGQxNzY2NjFjYTZlMGQ2MWIyNmI=&key2=YjFiMTM4ODlmNzFhOTY5MDJjMjg1ODIzMDIxNjNhNWM=",
+      },
+      {
+        tvgId: "HBO2.cl",
+        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/3/3b/HBO2_logo.png",
+        groupTitle: "Entretenimiento, HBO 2",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKEhCTzJfSERfTVgpL21hbmlmZXN0Lm1wZA==&key=MmQyMzQ4N2I1Yjg4MWU0NGJhMGZhYjk3NTlmZDg1YTM=&key2=MDI5YzdmMTI4OTkzMDM0YWRmZTRiYzRlOTUxNDA0MjQ=",
+      },
+      {
+        tvgId: "HBO+.cl",
+        tvgLogo: "https://1.bp.blogspot.com/-hbb2olvPtcs/YavslEKEx0I/AAAAAAAA-E4/gt3ERt1ckLkKpPke8_6dixkVqwg_yXXLACNcBGAsYHQ/s1141/HBO-plus-2019.png",
+        groupTitle: "Entretenimiento, HBO +",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKEhCT19QTFVTX0hEX01YKS9tYW5pZmVzdC5tcGQ=&key=OGM2ZTkzM2YzMTU1NzhiNTExMWUyMjkyZmFmOTlmNzA=&key2=MzQ0NmYzNTk0Nzk1N2QzNzAxYzQ5ZmQxNzI5ZjIxNmY=",
+      },
+      {
+        tvgId: "HBOMundi.cl",
+        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/1280px-HBO_Mundi.svg.png",
+        groupTitle: "Entretenimiento, HBO Mundi",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKEhCT19NVU5ESV9IRF9NWCkvbWFuaWZlc3QubXBk&key=Y2Q4ZmEyMzA2NWRkYmYxMzQ3ZDA1YTg3OGUzOGZkOTI=&key2=ZjkwMDVkY2QyZGZhOTQ2ZjYxOWE2NzRmMDVkMmNhNzg=",
+      },
+      {
+        tvgId: "HBOPop.cl",
+        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HBO_Pop.svg/1280px-HBO_Pop.svg.png",
+        groupTitle: "Entretenimiento, HBO Pop",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKEhCT19QT1BfSERfTVgpL21hbmlmZXN0Lm1wZA==&key=Mzk0MzM1MDk5YTZmMGU2ZjQzOTA0ZDhkMmRjNWEyM2Y=&key2=YjE0Y2UyZjYzODQ0NGIxNGUxZWY4MGRhNzBhMWI3YmU=",
+      },
+      {
+        tvgId: "HBOSignature.cl",
+        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/HBO_Signature.svg/2560px-HBO_Signature.svg.png",
+        groupTitle: "Entretenimiento, HBO Signature",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKEhCT19TSUdOQVRVUkVfSEQpL21hbmlmZXN0Lm1wZA==&key=ZTc5MGQyZmRkMWNiZmMzMWVjMDdjOWU2ZGUxYzU3Zjg=&key2=OWQyZWQzYmFkZDk3NjA3ZTRhZTBmODdjMDc4Y2RhMjc=",
+      },
+      {
+        tvgId: "HBOExtreme.cl",
+        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/1280px-HBO_Xtreme.svg.png",
+        groupTitle: "Entretenimiento, HBO Xtreme",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKEhCT19YVFJFTUVfSERfTVgpL21hbmlmZXN0Lm1wZA==&key=M2RkNTljMWM5MzY1ODE4MTgyNjI5MTRhYzRkNWEyMjg=&key2=N2RiNzU0NWM2MTkxYjNkYjc3ZDc5YzRkODU0NjVlNDg=",
+      },
+      {
+        tvgId: "HBOFamily.cl",
+        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HBO_Family.svg/800px-HBO_Family.svg.png",
+        groupTitle: "Entretenimiento, HBO Family",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKEhCT19GQU1JTFlfSEQpL21hbmlmZXN0Lm1wZA==&key=MWQ3ZWQzODE1Y2JhZTM3ODVjZWJmZTZiNDJmM2M2NTU=&key2=ZTEyNzAxMTEwOGI2YjViOTY0NmEwZGViM2E1ZDcxYmQ=",
+      },
+      {
+        tvgId: "Goldem.cl",
+        tvgLogo: "https://i.imgur.com/nx4RIpb.png",
+        groupTitle: "Entretenimiento, Golden",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=aHR0cHM6Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKEdPTERFTl9IRCkvbWFuaWZlc3QubXBk&key=YTJkNmE4NjMxMWMyMWEyYzBmNmU5MGQ1OGZkN2U1OTA=&key2=YjU2MDdlMzg5MWU4ZmI0YzBjYzgyZDhmODJhYmU1Njk=",
+      },
+      {
+        tvgId: "AMC.cl",
+        tvgLogo: "https://i.imgur.com/EomyGGs.jpg",
+        groupTitle: "Entretenimiento, AMC",
+        url: "https://nebunexa.com/players/dtvpl3.php?id=1007&amp;lang=1",
+      },
+      {
+        tvgId: "DiscoveryWorld.cl",
+        tvgLogo: "https://i.imgur.com/n8yegix.jpg",
+        groupTitle: "Cultura, Discovery World",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=aHR0cHM6Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKERJU0NPVkVSWV9XT1JMRF9IRCkvbWFuaWZlc3QubXBk&key=ZmFkNDIzNjdjYmEzMDExMTRjMjVlOWM1MjI2NjU2YWQ=&key2=NjUyYTVmMzM1M2UwNDU0NjRhODYwN2I2N2ViZmU4ZDg=",
+      },
+      {
+        tvgId: "Turbo.cl",
+        tvgLogo: "https://banner2.cleanpng.com/20180704/hty/kisspng-discovery-turbo-television-channel-discovery-chann-rua-gabriel-oeschler-5b3cb4edd44231.0893172215307051338694.jpg",
+        groupTitle: "Cultura, Discovery Turbo",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKERJU0NPVkVSWV9UVVJCT19IRCkvbWFuaWZlc3QubXBk&key=M2MwYWU4MTIxNmU2MGU2N2I3NjJmYjVmMTIxMDY4NTA=&key2=YTcyNTA0NDBhY2VhNzk5NjlmNzljNzRmN2Y5MzEzMmI=",
+      },
+      {
+        tvgId: "Sciences.cl",
+        tvgLogo: "https://i.imgur.com/MyPyuM2.jpg",
+        groupTitle: "Cultura, Discovery Sciences",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=aHR0cHM6Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKERJU0NPVkVSWV9TQ0lFTkNFKS9tYW5pZmVzdC5tcGQ=&key=YmNlYzYzOGQ0MzQxYTU2NjJkZjk3NzIxMzU0ZmQzMmE=&key2=ZjdmMWZlOWZkNTZmOWM2NDE5YmQyN2EzMTBjYzcwNWY=",
+      },
+      {
+        tvgId: "H&H.cl",
+        tvgLogo: "https://i.imgur.com/OO9PaGb.jpg",
+        groupTitle: "Cultura, Discovery H&H",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=aHR0cHM6Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKERJU0NPVkVSWV9IT01FX0hFQUxUSF9IRCkvbWFuaWZlc3QubXBk&key=ZWQ3ZGI5OTNlNDgzMzA4ZGNkMWQzYTI2NjAxOGQ3ODc=&key2=ZGVmNTI4ODc1NTU5OTYzZDNmMTI1YWY4NzVhZTA4YzM=",
+      },
+      {
+        tvgId: "History2.cl",
+        tvgLogo: "https://i.imgur.com/J897iGL.jpg",
+        groupTitle: "Cultura, History Channel 2",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKEgyX0hEKS9tYW5pZmVzdC5tcGQ=&key=MzMyOTBlZGM0MTE3ZDYxMjIxOGZkYzZiMWI3YzFhYWM=&key2=MzMyNWQ0M2JmNzgzZDBmOTIyOTdmNTcwNWI0YjNmZmI=",
+      },
+      {
+        tvgId: "A&E.cl",
+        tvgLogo: "https://i.imgur.com/7Vaq92j.jpg",
+        groupTitle: "Cultura, A&E",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=aHR0cHM6Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKEFFX01VTkRPX0hEKS9tYW5pZmVzdC5tcGQ=&key=NjU0MzkxODhmZTgxOTY2N2JhMzE3MzFmNTljN2MyOGI=&key2=MDExZWZjYjg2ZGMwYzMzNmMxYmI2MWQ2MDJjNzE2OTE=",
+      },
+      {
+        tvgId: "TLNovelas.cl",
+        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/0/01/Logo_tlnovelas_feb2019.png",
+        groupTitle: "Cultura, TLNovelas",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=aHR0cHM6Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKFRMTk9WRUxBUykvbWFuaWZlc3QubXBk&key=ZTc4MzkxZGViNTcwNmY5MzExZDk1MmQ2YmU2YTYxMzk=&key2=NmYxOGYyNDQzMzI4OGQ5NDYyNTk3YWVkNTgxMzgzMzY=",
+      },
+      {
+        tvgId: "StudioUniversalTv.cl",
+        tvgLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/640px-StudioUniversal2016.png",
+        groupTitle: "Entretenimiento, Studio Universal TV",
+        url: "https://nebunexa.com/players/dtvpl3.php?id=1210",
+      },
+      {
+        tvgId: "WarnerTv.cl",
+        tvgLogo: "https://i.imgur.com/Db6x442.jpg",
+        groupTitle: "Entretenimiento, Warner TV",
+        url: "https://nebunexa.com/players/dtvpl3.php?id=1248",
+      },
+      {
+        tvgId: "AXN.cl",
+        tvgLogo: "https://download.logo.wine/logo/AXN_(Portuguese_TV_channel)/AXN_(Portuguese_TV_channel)-Logo.wine.png",
+        groupTitle: "Entretenimiento, AXN",
+        url: "https://nebunexa.com/players/dtvpl3.php?id=1019&amp;lang=1",
+      },
+      {
+        tvgId: "CartoonNetwork.cl",
+        tvgLogo: "https://i.imgur.com/wx6s0Wq.jpg",
+        groupTitle: "Infantil, Cartoon Network",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=aHR0cHM6Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKENBUlRPT05fTkVUV09SS19IRCkvbWFuaWZlc3QubXBk&key=M2E4MjdmN2ZlZGU0NGQ4ZDk3M2NiYmFhYjBjMDg5YzA=&key2=ZjkxZWViM2M3YzEyZDkzOTE0MzRkYzc5YTg3MmMwYjk=",
+      },
+      {
+        tvgId: "DisneyChannel.cl",
+        tvgLogo: "https://i.imgur.com/84lq03p.jpg",
+        groupTitle: "Infantil, Disney Channel",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=aHR0cHM6Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKERJU05FWV9IRCkvbWFuaWZlc3QubXBk&key=MDI3ZTYzN2FmZWQ3ZGIxMTg1M2ZmMWExOWNjOGU0ZGI=&key2=NjA4ZjkxZjA1NTM2ZjVhNmM5M2U3MGNkZDk1YWJhNWM=",
+      },
+      {
+        tvgId: "DisneyJr.cl",
+        tvgLogo: "https://i.imgur.com/9FOKuui.jpg",
+        groupTitle: "Infantil, Disney Jr",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=aHR0cHM6Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKERJU05FWUpSX0hEKS9tYW5pZmVzdC5tcGQ=&key=MmE1NGZjYzllMzllYmI3MWEwYTkxYjBiN2UxOTQ2Yjk=&key2=MDcyMGY0OTAxNjE3YmYzZGIzNTgxZDU1MTEwZDdlZjY=",
+      },
+      {
+        tvgId: "DiscoveryKids.cl",
+        tvgLogo: "https://i.imgur.com/I18tgBc.png",
+        groupTitle: "Infantil, Discovery Kids",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=aHR0cHM6Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKERJU0NPVkVSWV9LSURTX0hEKS9tYW5pZmVzdC5tcGQ=&key=NjUxZjZkZDY5NjdmNjkyNjY1MzlmYWNhNTMzNmZjNzk=&key2=Y2FiMDFiODFhMWRjNzc3MmZlZjQ5NGU1Zjg5OGI1MGM=",
+      },
+      {
+        tvgId: "Nick.cl",
+        tvgLogo: "https://i.imgur.com/GSclzOJ.jpg",
+        groupTitle: "Infantil, Nick",
+        url: "https://clarovideo.nebunexa.com/mpdk.html?get=aHR0cHM6Ly9sYXRhbXZvc2xpdmVjbGFyb3ZpZGVvLmFrYW1haXplZC5uZXQvQ29udGVudC9EQVNIX0RBU0hfRksvTGl2ZS9DaGFubmVsKE5JQ0tFTE9ERU9OX0hEKS9tYW5pZmVzdC5tcGQ=&key=ZTY1ZmYyODhiMDMyZWM1ZWE3MGRlZTQyMzBiYTA0ODA=&key2=OTAyZWYyZGUyZjk5ZjhkZGZjMGQ4ZDVlYjI2MWU4ZWE=",
       },
       {
         tvgId: "CanalMasTelevision.co",
@@ -973,18 +1213,6 @@ export const CHANNELS = {
         tvgLogo: "https://i.imgur.com/k8U0e0b.png",
         groupTitle: "Animation DreikoTV (720p) [Not 24/7]",
         url: "https://cloudvideo.servers10.com:8081/8138/index.m3u8"
-      },
-      {
-        tvgId: "eSportsMaxTV.ve",
-        tvgLogo: "https://i.imgur.com/OprRgQN.png",
-        groupTitle: "Animation eSports Max (480p) [Not 24/7]",
-        url: "http://vcpar.myplaytv.com/esportsmax/live/playlist.m3u8"
-      },
-      {
-        tvgId: "FanpopTV.cl",
-        tvgLogo: "https://cdn.energeek.cl/logos/Fanpop-512.png",
-        groupTitle: "Animation Fanpop TV",
-        url: "https://wifispeed.trapemn.tv:1936/energeek/canal-2p/playlist.m3u8"
       },
       {
         tvgId: "KuriakosKids.pt",
