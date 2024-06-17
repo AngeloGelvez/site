@@ -6,4 +6,4 @@ Echa un vistazo al código en mi repositorio de GitHub.
 ¡Espero que disfruten del contenido y la experiencia del sitio!
 
 ### Link Del Sitio Web
-https://streamingtelevision.site/#
+https://streamingtelevision.site
