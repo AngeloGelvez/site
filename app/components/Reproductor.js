@@ -73,7 +73,7 @@ export function Reproductor(props, title, desc) {
 
       <div class="container">
         <div class="d-flex justify-content-around">
-          <iframe allow="encrypted-media; fullscreen" src="${url}" width="850" height="500" allowfullscreen></iframe>  
+          <iframe allow="fullscreen" src="${url}" width="850" height="500" allowfullscreen></iframe>  
 
           <div class="list-group ul-options" style="margin: 0px 10px !Important;">
               <a href="#/entertainment" class="list-group-item list-group-item-action">
